@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+
+    <div class="type">
+        <input readonly type="text" name="" id="field">
+    </div>
+
+    <br/>
+    <div class="calculator">
+        <div class="div">
+
+            <button onclick="getresult(7)"><b>7</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(8)"><b>8</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(9)"><b>9</b></button>&nbsp;&nbsp;
+            <button onclick="getresult('+')"><b>+</b></button>
+        </div>
+        <br/>
+        <div>
+            <button onclick="getresult(4)"><b>4</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(5)"><b>5</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(6)"><b>6</b></button>&nbsp;&nbsp;
+            <button onclick="getresult('-')"><b>-</b></button>
+        </div>
+        <br/>
+        <div>
+            <button onclick="getresult(3)"><b>3</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(2)"><b>2</b></button>&nbsp;&nbsp;
+            <button onclick="getresult(1)"><b>1</b></button>&nbsp;&nbsp;
+            <button onclick="getresult('*')"><b>x</b></button>
+        </div>
+        <br/>
+        <div>
+            <button onclick="getresult(0)"><b>0</b></button>&nbsp;&nbsp;
+            <button onclick="getresult('.')"><b>.</b></button>&nbsp;&nbsp;
+            <button style="background-color: #FF0509;" onclick="showresult('=')"><b>=</b></button>&nbsp;&nbsp;
+            <button onclick="getresult('/')"><b>/</b></button>
+        </div>
+
+        <br/>
+        <div class="ddiiv">
+            <button onclick="getresult('00')"><b>00</b></button>&nbsp;&nbsp;
+            <button class="btn" onclick="clearall()"><b>AC</b></button>&nbsp;&nbsp;
+            <button class="btn" onclick="remove()"><b>C</b></button>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
